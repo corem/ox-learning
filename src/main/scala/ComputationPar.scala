@@ -1,7 +1,7 @@
 import ox.{par, sleep}
 import scala.concurrent.duration.*
 
-object OxPlayground {
+object ComputationPar {
 
   def computation1: Int = {
     sleep(2.seconds)
